@@ -1,0 +1,51 @@
+body {
+    background: url("images/makeup3.jpg");
+    background-size: cover;
+    background-color: black;
+    color: pink;
+    text-align: center;
+  
+}
+
+h1, p {
+    color: pink;
+    font-family: "Helvetica"
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: "Helvetica";
+}
+
+footer{
+	font-weight: bold;
+	text-transform: uppercase;
+    font-family: "Helvetica";
+}
+
+
+#title {
+	text-transform: uppercase;
+	font-weight: bold;
+    font-size: 36px;
+}
+
+#slogan {
+	font-size: 22px;
+	font-style: italic;
+	text-transform: uppercase;
+
+}
+
+#makeup {
+	align: center;
+}
+
+
+
+#para1{
+    text-transform: uppercase;
+    font-size: 18px;
+}
