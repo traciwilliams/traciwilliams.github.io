@@ -1,4 +1,4 @@
-<link href='https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700' rel='stylesheet' type='text/css'>
+/*<link href='https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700' rel='stylesheet' type='text/css'>*/
 
 body {
     background-color: black;
@@ -21,7 +21,7 @@ nav {
 
 a {
     text-transform: uppercase;
-    color: pink;
+    color: white;
     text-decoration: none;
 }
 
@@ -32,33 +32,37 @@ nav a{
 
 }
 
-#footer{
+#footer, #navfooter{
 	font-weight: bold;
 	text-transform: uppercase;
     font-family: "Helvetica";
     padding: 100px;
-    background-color: red;
+    background-color: black;
+    text-align: left;
+    width: 400px;
 }
 
-#belowImages{
+/*#belowImages{
     padding: 200px;
     background: url("../images/makeup2.jpg");
     background-size: cover;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
 
 #title {
 	text-transform: uppercase;
 	font-weight: bold;
-    font-size: 36px;
+    font-size: 45px;
+    letter-spacing: 20px;
 }
 
 #slogan {
-	font-size: 22px;
+	font-size: 18px;
 	font-style: italic;
 	text-transform: uppercase;
+    word-spacing: 16px;
 }
 
 #makeup {
