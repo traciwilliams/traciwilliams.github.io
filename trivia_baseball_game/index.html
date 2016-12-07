@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Trivia Baseball</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet"
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div id="wrapper">
+
+      <section>
+        <!--<header id="topTitle"><h6>Question:</h6></header>-->
+        <section id="questionEl"></section>
+      </section>
+
+
+  <!--SCOREBOARD and TIMER-->
+
+
+      <table id="scoreboard" style="width:50%">
+            <tr>
+              <th>Runs</th>
+              <th>Outs</th>
+              <th></th>
+            </tr>
+          <tr>
+              <td><div id="theRuns"></div></td>
+              <td><div id="theOuts"></div></td>
+              <td><div id="timer">Go!</div></td>
+          </tr>
+      </table>
+
+
+
+
+  <!--====TABLE FOR ANSWER AND OPTIONS===-->
+      <table style="width:100%" id="radioButtons">
+      </table>
+
+  <!-- ====SUBMIT BUTTON=== -->
+        <section>
+            <div>
+                <button id="submitAns">Submit Answer</button>
+            </div>
+
+            <div>
+              <button id="nextQuestion">Next Question</button>
+            </div>
+         </section>
+
+
+ <!--=======BASEBALL GRAPHIC=======-->
+        <section id="ballField">
+            <img id="bases" src="images/Team-Lunch3.png"/>
+        </section>
+
+
+  </div><!--end of wrapper-->
+
+  <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="scripts/app.js"></script>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
