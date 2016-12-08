@@ -35,7 +35,11 @@ header{
 
 }
  
-
+p {
+  font-family: 'Marvel', sans-serif;
+  color: white;
+  size: 2rem;
+}
 nav {
   //font-family: 'Cinzel Decorative';
 	font-size: 1rem;
@@ -128,6 +132,8 @@ footer {
 #specialwords {
   font-family: 'Cinzel Decorative', cursive;
   font-size: 2rem;
+  color: white;
+  text-align: center;
 }
 #work {
   font-family: 'Cinzel Decorative', cursive;
@@ -205,6 +211,7 @@ nav,
   height: 40rem;
   margin: 0 auto;
   display: inline-block;
+  text-align: center;
 }
 #work-container {
 	background-color: pink;
