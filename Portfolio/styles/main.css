@@ -164,7 +164,7 @@ footer {
 #quote {
 	font-size: 1.5rem;
   //font-family: 'Cinzel Decorative';
-  color: purple;
+  color: white;
 	margin: 0 auto;
   width: 100%;
   text-align: center;
@@ -331,7 +331,7 @@ nav,
   height: 16rem;
   // box-shadow: inset 1px 1px 1px 1px;
   //             rgba(0,0,0,.85);
-  background: url(artsy.jpg);
+  background: url(Artsy.jpg);
   background-size: cover;
   margin: 1rem 1rem 1rem 2rem;
   //border-radius: 1px;
