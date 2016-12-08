@@ -19,7 +19,7 @@
   //background-color: grey;
 }
 body{
-  //background-color: white;
+  background-color: black;
   //background-color: #E5E5E5;
   //background-color: #3E4040;
   //background-color: #7B7F7F;
@@ -214,7 +214,7 @@ nav,
   text-align: center;
 }
 #work-container {
-	background-color: pink;
+	background-color: black;
 	width: 100%;
 	height: 20rem;
   margin: 0 auto;
@@ -313,7 +313,7 @@ nav,
   height: 16rem;
   // box-shadow: inset 1px 1px 1px 1px;
   //             rgba(0,0,0,.85);
-  background: url(codeabodefinal.jpg);
+  background: url(gifloader.jpg);
   background-size: cover;
   margin: 1rem 1rem 1rem 2rem;
   //border-radius: 1px;
@@ -330,7 +330,7 @@ nav,
   height: 16rem;
   // box-shadow: inset 1px 1px 1px 1px;
   //             rgba(0,0,0,.85);
-  background: url(codeabodefinal.jpg);
+  background: url(artsy.jpg);
   background-size: cover;
   margin: 1rem 1rem 1rem 2rem;
   //border-radius: 1px;
@@ -353,7 +353,7 @@ nav,
 #box4,
 #box5,
 #box6 {
-  background-color: white;
+  background-color: black;
   //margin: 0 auto;
   width: 100%;
   height: 50%;
@@ -362,6 +362,7 @@ nav,
   //float: left;
 }
 #centerpictures {
+  background-color: black;
   margin: 0 auto;
   width: 75%;
   
@@ -388,7 +389,7 @@ nav,
   font-family: 'Marvel', sans-serif;
   font-weight: 900;
   //color: rgba(0, 0, 0, 0.85);
-  color: white;
+  color: black;
   font-size: 20px;
 }
 
