@@ -1,0 +1,559 @@
+
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Open Sans Condensed', sans-serif;
+// font-family: 'Josefin Sans', sans-serif;
+// font-family: 'Cuprum', sans-serif;
+// font-family: 'Marvel', sans-serif;
+// font-family: 'Wire One', sans-serif;
+// font-family: 'Snippet', sans-serif;
+// font-family: 'Bubbler One', sans-serif;
+
+
+
+
+
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+  //background-color: grey;
+}
+body{
+  //background-color: white;
+  //background-color: #E5E5E5;
+  //background-color: #3E4040;
+  //background-color: #7B7F7F;
+  //background-color: green;
+}
+
+header{
+  text-align: center;
+  margin: 0 auto;
+  /*adding a background image*/
+  background: url("blackmac10002.jpg");
+  background-size: cover;
+
+}
+ 
+
+nav {
+  //font-family: 'Cinzel Decorative';
+	font-size: 1rem;
+  color: white;
+	display: block;
+	text-align: right;
+	width: 1230px;
+  float: right;
+  position: fixed;
+  //background-color: rgba(0,0,0,.85);
+  margin-top: -10px;
+  //margin: 0rem 2rem 0rem 2rem;
+  padding: 1rem 1rem 0rem 1rem;
+  //background-color: #E5E5E5;
+  z-index: 1;
+}
+nav a {
+	 text-decoration: none;
+	 //padding: 8px;
+}
+nav a:hover {
+	color: yellow;
+}
+
+header {
+  margin: 0 auto;
+}
+ul, li{
+  //padding: 0;
+  //margin: 0 auto;
+  list-style: none;
+  //text-align: center;
+}
+li{
+  float: left;
+}
+
+footer {
+  width: 100%;
+  padding: 1rem 2rem 3rem 2rem;
+  clear: both;
+  //background-color: blue;
+  margin: 0 auto;
+
+}
+
+
+
+#name {
+  font-family: 'Cinzel Decorative', cursive;
+	font-size: 7.25rem;
+  color: white;
+  //color: black;
+	margin: 0 auto;
+  padding: 0rem 0rem 10rem 0rem;
+  margin-top: -10rem;
+  //background-color: pink;
+  text-align: center;
+}
+#tagline {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 1.5rem;
+  color: purple;
+  padding-top: 21rem;
+  padding-left: 38rem;
+  //background-color: blue;
+
+}
+
+#about {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 7.5rem;
+  color: white;
+  margin: 0 auto;
+  padding: 8rem 0rem 0rem 0rem;
+  //background-color: orange;
+  text-align: center;
+}
+
+#abouttagline {
+  //font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Marvel', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  margin: 0 auto;
+  padding: 0rem 0rem 0rem 0rem;
+  //background-color: orange;
+  text-align: center;
+}
+#specialwords {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 2rem;
+}
+#work {
+  font-family: 'Cinzel Decorative', cursive;
+	font-size: 7.5rem;
+  color: white;
+	margin: 0 auto;
+  padding: 8rem 0rem 4rem 0rem;
+  //background-color: green;
+  text-align: center;
+}
+
+#contact {
+  font-family: 'Cinzel Decorative', cursive;
+	font-size: 7.5rem;
+	margin: 0 auto;
+  padding: 10rem 0rem 8rem 0rem;
+  //background-color: yellow;
+  text-align: center;
+}
+#contactlist,
+#worktagline {
+  font-size: 1.5rem;
+  //color: #E5E5E5;
+  text-align: center;
+}
+
+#quote {
+	font-size: 1.5rem;
+  //font-family: 'Cinzel Decorative';
+  color: purple;
+	margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  //background-color: grey;  
+}
+#quote,
+nav,
+#tagline,
+#abouttagline,
+#worktagline,
+#contactlist {
+  //font-family: 'Raleway', sans-serif;
+  //font-family: 'Open Sans Condensed', sans-serif;
+  // font-family: 'Josefin Sans', sans-serif;
+  // font-family: 'Cuprum', sans-serif;
+   font-family: 'Marvel', sans-serif;
+  // font-family: 'Wire One', sans-serif;
+  // font-family: 'Snippet', sans-serif;
+  // font-family: 'Bubbler One', sans-serif;
+  //background-color: pink;
+}
+
+
+#name-container {
+	//background-color: black;
+	width: 100%;
+	height: 40rem;
+
+  //background: url(bigyellowflower1000.jpg);
+  //background: url(blanknotebook1000.jpg);
+  //background: url(ladyumbrella1000.jpg);
+  //background: url(overheadmac1000.jpg);
+  //background: url(purpleflower1000.jpg);
+  //background: url(twopencils1000.jpg);
+  //background: url(yellowflower1000.jpg);
+
+  //background: url(blackkeyboard1000.jpg);
+  //background: url(blackmac10002.jpg);
+  background-repeat: no-repeat;
+}
+
+#about-container {
+  background-color: black;
+  width: 100%;
+  height: 40rem;
+  margin: 0 auto;
+  display: inline-block;
+}
+#work-container {
+	background-color: pink;
+	width: 100%;
+	height: 40rem;
+  margin: 0 auto;
+  padding: 0rem 0rem 1rem 0rem;
+}
+
+#contact-container {
+	background-color: yellow;
+	width: 100%;
+	//height: 50rem;
+}
+
+#socialmedia-container {
+  //background-color: grey;
+  width: 100%;
+  height: 25rem;
+  padding: 0rem 0rem 0rem 100rem;
+  float: left;
+}
+
+
+
+#picture1Box  {
+  
+  margin: 0 auto;
+  //padding: 10rem 10rem 10rem 10rem;
+  width: 26rem;
+  height: 16rem;
+  // box-shadow: inset 1px 1px 1px 1px;
+  //             rgba(0,0,0,.85);
+  background: url(pottycheck.jpg);
+  background-size: cover;
+  margin: 1rem 1rem 1rem 2rem;
+  border-radius: 1px;
+  float: left;
+  //margin: 0 auto;
+  //display: inline-block;
+}
+#picture2Box   {
+  
+  margin: 0 auto;
+  //padding: 0rem 0rem 0rem 0rem;
+  width: 26rem;
+  height: 16rem;
+  // box-shadow: inset 1px 1px 1px 1px;
+  //             rgba(0,0,0,.85);
+  background: url(baseball.jpg);
+  background-size: cover;
+  margin: 1rem 1rem 1rem 2rem;
+  float: left;
+  //border-radius: 1px;
+  //float: left;
+}
+#picture3Box   {
+  
+  margin: 0 auto;
+  //padding: 0rem 0rem 1rem 0rem;
+
+  width: 26rem;
+  height: 16rem;
+  // box-shadow: inset 1px 1px 1px 1px;
+  //             rgba(0,0,0,.85);
+  background: url(chicagobackground.jpg);
+  background-size: cover;
+  margin: 1rem 1rem 1rem 2rem;
+  //border-radius: 1px;
+  float: left;
+  //display: inline-block;
+}
+
+
+#picture4Box   {
+  
+  margin: 0 auto;
+  //padding: 0rem 0rem 1rem 0rem;
+
+  width: 26rem;
+  height: 16rem;
+  // box-shadow: inset 1px 1px 1px 1px;
+  //             rgba(0,0,0,.85);
+  background: url(codeabodefinal.jpg);
+  background-size: cover;
+  margin: 1rem 1rem 1rem 2rem;
+  //border-radius: 1px;
+  float: left;
+  //display: inline-block;
+}
+
+#picture1Box:hover #overlay,
+#picture2Box:hover #overlay,
+#picture3Box:hover #overlay,
+#picture4Box:hover #overlay {
+               opacity:1.5;}
+
+
+#box1,
+#box2,
+#box3,
+#box4 {
+  background-color: white;
+  //margin: 0 auto;
+  width: 100%;
+  height: 50%;
+  //box-shadow: 1px 1px 1px #000000;
+  //display: inline-block;
+  //float: left;
+}
+#centerpictures {
+  margin: 0 auto;
+  width: 75%;
+  
+}
+
+
+
+
+
+#overlay {
+  background: rgba(0,0,0,.75);
+  text-align: center;
+  padding: 1px 1px 1px 1px;
+  opacity: 0;
+  -webkit-transition: opacity .50s ease; 
+}
+
+
+
+
+
+
+#picture1Descrip {
+  font-family: 'Marvel', sans-serif;
+  font-weight: 900;
+  //color: rgba(0, 0, 0, 0.85);
+  color: white;
+  font-size: 20px;
+}
+
+#picture4Descrip {
+  font-family: 'Marvel', sans-serif;
+  font-weight: 900;
+  //color: rgba(0, 0, 0, 0.85);
+  color: white;
+  font-size: 20px;
+}
+
+
+#idlink{
+  //padding: 0px 0px 0px 5px;
+  margin: 0 auto;
+  width: 25%;
+  height: 25%;
+  border-color: black;
+  //background-color: white;
+  font-family: 'Marvel', sans-serif;
+  font-weight: 900;
+  color: blue;
+}
+#idlink:hover{
+  color: yellow;
+}
+
+
+
+
+
+//social media 
+
+
+
+.one-button::before{
+  //position: absolute;
+  top:0;
+  left:0;
+  height: 25px;
+  width: 25px;
+  padding: 1em;
+  border-radius: 100%;
+  content: "";
+  background: rgb(125,126,125); /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */
+  //background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(125,126,125,1)), to(rgba(14,14,14,1)));
+  //background: -webkit-linear-gradient(rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
+  //background: -moz-linear-gradient(rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
+  //background: -o-linear-gradient(rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
+  //background: linear-gradient(rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* Opera 11.10+ */ /* IE10+ */ /* W3C */
+  //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+  z-index: 999;
+  box-shadow: 0px 0px 10px 2px #666;
+  border: 1px solid #000;
+}
+.one-button {
+  cursor: pointer;
+  color: #fff;
+  position: relative;
+  z-index: 99999;
+  top: 15px;
+  left: 15px;
+  margin-left: 55px;
+
+}
+.one-button:hover i{
+  color: purple;
+
+}
+.one-button:active{
+  top: 17px;
+  transition: 0.6s;
+}
+.one-button i{
+  color: #fff;
+  position: relative;
+  z-index: 99999;
+  top: 15px;
+  left: 16px;
+}
+.one-button::after{
+  position: absolute;
+  top:5px;
+  left:5px;
+  content: "";
+  height: 15px;
+  width: 15px;
+  padding: 1em;
+  z-index:;
+  border-radius: 100%;
+  background: rgb(14,14,14); /* Old browsers */
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(14,14,14,1)), to(rgba(125,126,125,1)));
+  //background: -webkit-linear-gradient(rgba(14,14,14,1) 0%, rgba(125,126,125,1) 100%);
+  //background: -moz-linear-gradient(rgba(14,14,14,1) 0%, rgba(125,126,125,1) 100%);
+  //background: -o-linear-gradient(rgba(14,14,14,1) 0%, rgba(125,126,125,1) 100%);
+  //background: linear-gradient(rgba(14,14,14,1) 0%, rgba(125,126,125,1) 100%); /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */ /* W3C */
+  //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#7d7e7d',GradientType=0 ); /* IE6-9 */
+  z-index: 999;
+  
+    border: 1px solid #000;
+}
+
+
+//contactform
+
+form {
+ background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  margin: auto;
+  position: relative;
+  width: 550px;
+  height: 450px;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 24px;
+  font-weight: bold;
+  //color: #09C;
+
+  text-decoration: none;
+  border-radius: 10px;
+  marign: 10px 10px 10px 10px;
+  padding: 10px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); 
+
+
+}
+
+input {
+  width: 375px;
+  display: block;
+  border: 1px solid #999;
+  height: 25px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+textarea#feedback {
+  width: 375px;
+  height: 150px;
+  display: block;
+}
+textarea:focus, input:focus {
+  border: 1px solid #09C;
+}
+
+button {
+  width: 100px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background: #09C;
+  color: green;
+  font-family: 'Cinzel Decorative', cursive;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid #999;
+}
+
+input.button:hover {
+  background: #fff;
+  color: #09C;
+}
+
+// ul.cont{
+//   //position: absolute;
+//   top: 75px;
+//   width: 600px;
+//   left: calc(50% - 335px);
+// }
+
+
+
+// #column1 {
+//   height: 8rem;
+//   width: 12rem;
+//   //padding: 1rem 0rem 1rem 0rem;
+//   margin: 1rem 1rem 1rem 0rem;
+//   background: grey;
+//   float: left;
+// }
+
+// #column2 {
+//   height: 8rem;
+//   width: 32rem;
+//   //padding: 1rem 1rem 1rem 1rem;
+//   margin: 1rem 1rem 1rem 1rem;
+//   background: grey;
+//   float: left;
+// }
+
+// #column-container {
+// 	margin: 0rem 0rem 14rem 0re
+
+
+#socialform-container {
+  background-color: black;
+}
+// #form-container {
+//   background-color: red;
+//   height: 75%;
+//   width: 75%;
+// }
+#socialmedia-container{
+  background-color: black;
+  height: 25%;
+  width: 25%;
+  margin: 0 auto;
+
