@@ -148,8 +148,9 @@ footer {
 #contact {
   font-family: 'Cinzel Decorative', cursive;
 	font-size: 6.5rem;
+  color: white;
 	margin: 0 auto;
-  padding: 10rem 0rem 8rem 0rem;
+  padding: 20rem 0rem 10rem 0rem;
   //background-color: yellow;
   text-align: center;
 }
@@ -222,16 +223,16 @@ nav,
 }
 
 #contact-container {
-	background-color: yellow;
+	background-color: black;
 	width: 100%;
-	//height: 50rem;
+	//height: 65rem;
 }
 
 #socialmedia-container {
-  //background-color: grey;
-  width: 100%;
-  height: 25rem;
-  padding: 0rem 0rem 0rem 100rem;
+  background-color: black;
+  width: 30%;
+  height: 27rem;
+  padding: 0rem 0rem 0rem 17rem;
   float: left;
 }
 
@@ -495,69 +496,69 @@ nav,
 
 //contactform
 
-form {
- background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-  margin: auto;
-  position: relative;
-  width: 550px;
-  height: 450px;
-  font-family: 'Cinzel Decorative', cursive;
-  font-size: 14px;
-  font-style: italic;
-  line-height: 24px;
-  font-weight: bold;
-  //color: #09C;
+// form {
+//  background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+//   background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+//   background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+//   margin: auto;
+//   position: relative;
+//   width: 550px;
+//   height: 450px;
+//   font-family: 'Cinzel Decorative', cursive;
+//   font-size: 14px;
+//   font-style: italic;
+//   line-height: 24px;
+//   font-weight: bold;
+//   //color: #09C;
 
-  text-decoration: none;
-  border-radius: 10px;
-  marign: 10px 10px 10px 10px;
-  padding: 10px;
-  border: 1px solid #999;
-  border: inset 1px solid #333;
-  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); 
+//   text-decoration: none;
+//   border-radius: 10px;
+//   marign: 10px 10px 10px 10px;
+//   padding: 10px;
+//   border: 1px solid #999;
+//   border: inset 1px solid #333;
+//   -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+//   -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+//   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); 
 
 
-}
+// }
 
-input {
-  width: 375px;
-  display: block;
-  border: 1px solid #999;
-  height: 25px;
-  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-}
-textarea#feedback {
-  width: 375px;
-  height: 150px;
-  display: block;
-}
-textarea:focus, input:focus {
-  border: 1px solid #09C;
-}
+// input {
+//   width: 375px;
+//   display: block;
+//   border: 1px solid #999;
+//   height: 25px;
+//   -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+//   -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+//   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+// }
+// textarea#feedback {
+//   width: 375px;
+//   height: 150px;
+//   display: block;
+// }
+// textarea:focus, input:focus {
+//   border: 1px solid #09C;
+// }
 
-button {
-  width: 100px;
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-  background: #09C;
-  color: green;
-  font-family: 'Cinzel Decorative', cursive;
-  height: 30px;
-  border-radius: 15px;
-  border: 1px solid #999;
-}
+// button {
+//   width: 100px;
+//   position: absolute;
+//   right: 20px;
+//   bottom: 20px;
+//   background: #09C;
+//   color: green;
+//   font-family: 'Cinzel Decorative', cursive;
+//   height: 30px;
+//   border-radius: 15px;
+//   border: 1px solid #999;
+// }
 
-input.button:hover {
-  background: #fff;
-  color: #09C;
-}
+// input.button:hover {
+//   background: #fff;
+//   color: #09C;
+// }
 
 // ul.cont{
 //   //position: absolute;
@@ -590,17 +591,18 @@ input.button:hover {
 // 	margin: 0rem 0rem 14rem 0re
 
 
-#socialform-container {
-  background-color: black;
-}
+// #socialform-container {
+//   background-color: black;
+// }
 // #form-container {
 //   background-color: red;
 //   height: 75%;
 //   width: 75%;
 // }
 #socialmedia-container{
-  background-color: black;
+  background-color: pink;
   height: 25%;
   width: 25%;
+  padding: 10rem 1rem 1rem 1rem;
   margin: 0 auto;
 
