@@ -1,0 +1,180 @@
+/*CSS Reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*======================= 
+
+Grid 
+
+=======================*/
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*======================= 
+
+BASIC STYLES 
+
+=======================*/
+
+body {
+	background-color: #3s3g3f;
+	font-family: 'Mystery Quest', cursive;
+	//font-family: 'Baloo Bhai', cursive;
+	//font-family: 'Oregano', cursive;
+}
+
+p {
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 24px;
+}
+
+#wrapper {
+	width: 960px;
+	background-color: #575697;
+	margin: 0 auto;
+}
+.logo {
+	margin: 0 10px;
+	font-size: 12px;
+}
+
+.hero {
+	color: blue;
+	line-height: 44px;
+	padding: 66px 80px 66px 80px;
+	text-align: center;
+	background-image: url("images/music.jpg")
+}
+
+.hero h2 {
+	font-size: 56px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.hero p {
+	font-size: 24px;
+	font-weight: 100;
+}
+
+#signupform {
+	padding: 10px 50px 10px 50px;
+	width: 435px;
+	margin: 0 auto;
+	background-color: #D01d1e;
+}
+/*======================= 
+
+NAVIGATION
+
+=======================*/
+nav {
+	text-align: right;
+
+}
+
+nav li {
+	color: white;
+	font-size: 14px;
+	margin: 0 10px;
+	display: inline-block;   
+}
+/*======================= 
+
+FORM
+
+=======================*/
+
+input {
+	padding: 5px 0px 5px 0px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.addButton {
+	padding: 10px 10px 10px 10px;
+}
+
+
+/*======================= 
+
+LINKS
+
+=======================*/
+a:hover {
+	color: #a9b2b9;
+}
+
+a {
+	color: #648880;
+	text-decoration: none;
+}
+
+.teaser a:hover h3 {
+	color: #a9b2b9;
+}
+
+
+/*======================= 
+
+FOOTER
+
+=======================*/
+footer {
+	clear: both;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 10px;
+	background-color: white;
+	padding-top: 10px;
+}
