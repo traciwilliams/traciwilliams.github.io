@@ -1,0 +1,351 @@
+/*======================= 
+
+RESET CSS  
+
+=======================*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*======================= 
+
+GRID 
+
+=======================*/
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*======================= 
+
+CUSTOM STYLES
+
+=======================*/
+body {
+	background-color: black;
+	color: white;
+}
+#wrapper {
+	width: 1200px;
+	//background-color: white;
+	margin: 0 auto;
+}
+.tagline {
+	font-family: 'Archivo Narrow', sans-serif;
+	color: #93161d;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px 10px;
+	text-transform: uppercase;
+}
+
+.logo {
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 26px;
+	text-align: left;
+	text-transform: uppercase;
+
+}
+.col-1-3 {
+	width: 30%;
+	//background-color: blue;
+	float:right;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.col-2-3 {
+	width: 66%;
+	// background-color: red;
+	display: inline-block;
+}
+// .grid,
+// .col-1-3,
+// .col-2-3 {
+// 	padding-left: 5px;
+// 	padding-right: 5px;
+// }
+
+.container,
+.grid {
+	margin: 0 auto;
+	width: 100%;
+}
+
+// .container {
+// 	padding-left: 30px;
+// 	padding-right: 30px;
+// }
+
+/*============================
+
+FORM
+
+=============================*/
+form {
+	color: white;
+	font-family: 'Archivo Narrow', sans-serif;
+  	margin: 0 auto;
+  	width: 70%;
+  	padding: 50px 10px 10px 40px;
+  	border: white;
+}
+
+input {
+	width: 100%;
+	//border: 150px; 10px; 150px; 10px;
+	padding: 10px; 10px; 10px; 10px;
+	margin: 10px; 10px; 10px; 10px;
+}
+
+label {
+	color: white;
+
+}
+
+legend {
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+#email,
+#phone {
+	text-align: center;
+ 	text-transform: uppercase; 
+}
+
+textarea {
+	width: 100%;
+	height: 80px;
+	border: 1px solid #c6c9cc;
+  	border-radius: 5px;
+  	color: #888;
+  	display: block;
+  	//margin: 5px 0 27px 0;
+  	padding-top: 150px;
+  	margin: 10px; 10px; 10px; 10px;
+}
+
+.btn {
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 400;
+	letter-spacing: .5px;
+	//margin: 0;
+	text-transform: uppercase;
+	margin: 10px; 10px; 10px; 10px;
+}
+
+.btn:hover {
+	background: #93161d;
+	color: white;
+
+}
+
+.btn-default {
+	border: 0;
+	background: #648880;
+	padding: 11px 30px;
+	font-size: 14px;
+}
+
+.btn-default:hover {
+	background: #77a198;
+}
+/*============================
+
+NAVIGATION
+
+=============================*/
+.nav {
+	font-family: 'Archivo Narrow', sans-serif;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	text-transform: uppercase; 
+	//padding: 5px 0px 5px 0px;
+	position: fixed;
+}
+
+nav ul ul {
+	display: none;
+	position: absolute; 
+	border-radius: 0px;
+	//left: 100%;
+	top: 100%;
+}
+
+nav ul ul li {
+	display: list-item;
+	float: none;
+	position: relative;
+}
+
+
+nav ul li:hover > ul {
+	display: block;
+	position: absolute;
+
+}
+
+.nav li {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 5px 0px 5px 0px;
+	//vertical-align: top;
+}
+
+.nav li: last-child {
+	margin-right: 0;
+}
+
+
+/*======================= 
+
+SECOND PICTURES
+
+=======================*/
+#static {
+	float: left;
+	padding: 20px 40px 20px 20px;
+}
+
+#rotating {
+	// float: right;
+	padding: 20px 20px 20px 40px;
+}
+
+
+/*======================= 
+
+SLIDE SHOW
+
+=======================*/
+
+
+/*======================= 
+
+LINKS
+
+=======================*/
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline; 
+}
+
+/*============================
+
+FOOTER
+
+=============================*/
+
+ .primary-footer {
+ 	font-family: 'Archivo Narrow', sans-serif;
+ 	font-size: 12px;
+ 	//padding: 10px 10px 0px 10px;
+
+ 	color: white;
+ 	width: 100%;
+ 	height: 200px;
+ 	margin: 0 auto;
+ 	color: white;
+ 	//background-color: #292929;
+ 	clear: both;
+ }
+
+ .secondary-footer {
+ 	font-family: 'Archivo Narrow', sans-serif;
+ 	font-size: 12px;
+ 	//padding: 10px 10px 10px 10px;
+ 	
+ 	color: white;
+ 	width: 100%;
+ 	height: 200px;
+ 	margin: 0 auto;
+ 	color: white;
+ 	//background-color: grey;
+ 	clear: both;
+ }
+.col-1-6 {
+	width: 20%;
+	color: grey;
+	//background-color: blue;
+	padding: 20px 0px 0px 0px;
+	float:right;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#red {
+	color: #93161d;
+}
+
+
+
+
+
+
+
+
+
+
+
