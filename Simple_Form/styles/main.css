@@ -1,0 +1,40 @@
+body {
+	//background-color: grey;
+	background: url("coffee.jpg"); 
+	font-family: 'Kaushan Script', cursive;
+}
+h1 {
+	text-align: right;
+	color: #a8226f;
+}
+.container {
+	width: 960px;
+	//background-color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: 0 auto;
+}
+
+form {
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 50%;
+	float: right;
+	color: #a8226f;
+}
+
+#btn {
+	font-family: 'Kaushan Script', cursive;
+	text-decoration: none;
+}
+
+#btn:hover {
+	background-color: #a8226f;
+	color: white;
+	text-decoration: none;
+}
+
+footer {
+	color: #333b2c;
+	padding-top: 150px;
+	clear: both;
+}
