@@ -1,0 +1,238 @@
+/*======================= 
+
+RESET CSS 
+
+=======================*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*======================= 
+
+GRID 
+
+=======================*/
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*======================= 
+
+BASIC LAYOUT
+
+=======================*/
+
+body {
+	font-family: 'Homemade Apple', cursive;
+	width: 960px;
+	margin: 0 auto;
+	background-color: rgba(255, 0, 0, 0.9)
+	//border: 5px solid green;
+}
+
+header {
+	font-family: 'Homemade Apple', cursive;
+	//background-color: purple;
+	font-size: 26px;
+	padding: 20px 10px 0px 10px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.container {	
+	margin: 0 auto;
+	width: 900px;
+	height: 600px;
+	background-color: white;
+	//border: 2px solid red;
+	background: cover;
+}
+
+h2
+	{
+	font-family: 'Maven Pro', sans-serif;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: center;
+}
+
+h6 {
+	font-family: 'Maven Pro', sans-serif;
+	text-align: left;
+}
+
+footer {
+	font-family: 'Homemade Apple', cursive;
+	padding: 40px 90px 20px 10px;
+	font-size: 12px;
+	text-align: right;
+	color: red;
+	clear: both;
+}
+
+/*======================= 
+
+DIVS
+
+// =======================*/
+// #div1,
+// #div2,
+// #div3,
+// #div4,
+// #div5,
+// #div6,
+// #div7,
+// #div8,
+// #div9,
+// #div10 {
+// 	width: 50px;
+// 	height: 1px;
+// 	background-color: black;
+// 	//margin-top: 200px;
+// 	margin: 200px 0px 0px 35px;
+
+// }
+
+	
+		
+#div1, 
+#div2,
+#div3,
+#div4 {
+    float: left;
+    width: 135px;
+    height: 400px;
+    // margin: 10px;
+    // padding: 10px;
+    //border: 1px solid black;
+    padding-top: 30px;
+    margin: 100px 0px 0px 35px;
+    background-color: white;
+    z-index: 2;
+}
+
+
+#div5,
+#div3 {
+    float: left;
+    width: 600px;
+    height: 400px;
+    // margin: 10px;
+    padding: 50px 40px 10px 40px;
+    border: 1px solid black;
+    margin: 100px 0px 0px 35px;
+    background-image: url("images/chalkboard.jpg");
+    background-repeat: no-repeat;
+
+}
+
+
+
+#drag1,
+#drag2,
+#drag3,
+#drag4,
+#drag6,
+#drag7,
+#drag8,
+#drag9,
+#drag10,
+#drag11,
+#drag12,
+#drag13,
+#drag14,
+#drag15,
+#drag16,
+#drag17,
+#drag18,
+#drag19,
+#drag20,
+#drag21,
+#drag22,
+#drag23,
+#drag24,
+#drag25,
+#drag26,
+#drag27,
+#drag28,
+#drag29,
+#drag30,
+#drag31,
+#drag32 {
+	background-color: #3cb54b;
+	width: 25px;
+	height: 25px;
+}
+
+.nav li {
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: top;
+}
+
+
+/*=====================================
+
+
+BUTTON
+
+
+=======================================*/
+#eraseBoard {
+	margin-top: 430px;
+	margin-left: -175px;
+}
+
+#eraseBoard:hover {
+	background-color: red;
+}

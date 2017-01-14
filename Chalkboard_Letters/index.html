@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Name on Chalkboard</title>
+	<link rel="stylesheet" href="styles/main.css"/>
+	<script src="scripts/app.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+</head>
+<body>
+	<div class="container"> 
+		<header>Leave your Name on the Chalkboard</header><p></p>
+		<h2>Drag the letters over to the board one by one to spell your name<br>Use the eraser to clear the board</h2>
+
+	 <div id="div1" ondrop="doTheDrop(event)" ondragover="letDrop(event)">
+
+		<img src="styles/images/A.png" draggable="true" ondragstart="whatToDrag(event)" id="drag1">
+		<img src="styles/images/B.png" draggable="true" ondragstart="whatToDrag(event)" id="drag2">
+		<img src="styles/images/C.png" draggable="true" ondragstart="whatToDrag(event)" id="drag3">
+		<img src="styles/images/D.png" draggable="true" ondragstart="whatToDrag(event)" id="drag4">
+		<img src="styles/images/E.png" draggable="true" ondragstart="whatToDrag(event)" id="drag7">
+		<img src="styles/images/F.png" draggable="true" ondragstart="whatToDrag(event)" id="drag8">
+		<img src="styles/images/G.png" draggable="true" ondragstart="whatToDrag(event)" id="drag9">
+		<img src="styles/images/H.png" draggable="true" ondragstart="whatToDrag(event)" id="drag10">
+		<img src="styles/images/I.png" draggable="true" ondragstart="whatToDrag(event)" id="drag11">
+		<img src="styles/images/J.png" draggable="true" ondragstart="whatToDrag(event)" id="drag12">
+		<img src="styles/images/K.png" draggable="true" ondragstart="whatToDrag(event)" id="drag13">
+		<img src="styles/images/L.png" draggable="true" ondragstart="whatToDrag(event)" id="drag14">
+		<img src="styles/images/M.png" draggable="true" ondragstart="whatToDrag(event)" id="drag15">
+		<img src="styles/images/N.png" draggable="true" ondragstart="whatToDrag(event)" id="drag16">
+		<img src="styles/images/O.png" draggable="true" ondragstart="whatToDrag(event)" id="drag17">
+		<img src="styles/images/P.png" draggable="true" ondragstart="whatToDrag(event)" id="drag18">
+		<img src="styles/images/Q.png" draggable="true" ondragstart="whatToDrag(event)" id="drag19">
+		<img src="styles/images/R.png" draggable="true" ondragstart="whatToDrag(event)" id="drag20">
+		<img src="styles/images/S.png" draggable="true" ondragstart="whatToDrag(event)" id="drag21">
+		<img src="styles/images/T.png" draggable="true" ondragstart="whatToDrag(event)" id="drag22">
+		<img src="styles/images/U.png" draggable="true" ondragstart="whatToDrag(event)" id="drag23">
+		<img src="styles/images/V.png" draggable="true" ondragstart="whatToDrag(event)" id="drag24">
+		<img src="styles/images/W.png" draggable="true" ondragstart="whatToDrag(event)" id="drag25">
+		<img src="styles/images/X.png" draggable="true" ondragstart="whatToDrag(event)" id="drag26">
+		<img src="styles/images/Y.png" draggable="true" ondragstart="whatToDrag(event)" id="drag27">
+		<img src="styles/images/Z.png" draggable="true" ondragstart="whatToDrag(event)" id="drag28">
+		<img src="styles/images/blank.png" draggable="true" ondragstart="whatToDrag(event)" id="drag29">
+		<img src="styles/images/blank.png" draggable="true" ondragstart="whatToDrag(event)" id="drag30">
+		<img src="styles/images/blank.png" draggable="true" ondragstart="whatToDrag(event)" id="drag31">
+		<img src="styles/images/blank.png" draggable="true" ondragstart="whatToDrag(event)" id="drag32">
+		<h6>Extra letters</h6>
+		<img src="styles/images/A.png" draggable="true" ondragstart="whatToDrag(event)" id="drag1">
+		<img src="styles/images/A.png" draggable="true" ondragstart="whatToDrag(event)" id="drag1">
+		<img src="styles/images/A.png" draggable="true" ondragstart="whatToDrag(event)" id="drag1">
+		<img src="styles/images/E.png" draggable="true" ondragstart="whatToDrag(event)" id="drag7">
+		<img src="styles/images/E.png" draggable="true" ondragstart="whatToDrag(event)" id="drag7">
+		<img src="styles/images/E.png" draggable="true" ondragstart="whatToDrag(event)" id="drag7">
+		<img src="styles/images/I.png" draggable="true" ondragstart="whatToDrag(event)" id="drag11">
+		<img src="styles/images/I.png" draggable="true" ondragstart="whatToDrag(event)" id="drag11">
+		<img src="styles/images/I.png" draggable="true" ondragstart="whatToDrag(event)" id="drag11">
+		<img src="styles/images/O.png" draggable="true" ondragstart="whatToDrag(event)" id="drag17">
+		<img src="styles/images/O.png" draggable="true" ondragstart="whatToDrag(event)" id="drag17">
+		<img src="styles/images/O.png" draggable="true" ondragstart="whatToDrag(event)" id="drag17">
+		<img src="styles/images/U.png" draggable="true" ondragstart="whatToDrag(event)" id="drag23">
+		<img src="styles/images/U.png" draggable="true" ondragstart="whatToDrag(event)" id="drag23">
+		<img src="styles/images/U.png" draggable="true" ondragstart="whatToDrag(event)" id="drag23">
+	</div>	
+
+	<!--<div id="div4" ondrop="doTheDrop(event)" ondragover="letDrop(event)">div4
+
+		<img src="styles/images/blue-block.gif" draggable="true" ondragstart="whatToDrag(event)" id="drag4" width="36" height="69"> 
+	</div>-->
+
+	<!-- draggable=true makes the element draggable
+	ondragstart attribute calls the whatToDrag function and specifies what needs to be dragged -->
+
+	
+	<!-- the ondrop occurs when a draggable element is dropped on a valid drop target
+	the doTheDrop(event) function occurs when the dragged element is over the drop target -->
+
+<!-- 	<div id="div2" ondrop="doTheDrop(event)" ondragover="letDrop(event)">div2
+	</div>
+
+	<div id="div3" ondrop="doTheDrop(event)" ondragover="letDrop(event)">div3
+	</div> -->
+
+
+	<div id="div5" ondrop="doTheDrop(event)" ondragover="letDrop(event)">
+	</div>
+
+	<input id="eraseBoard" type="button" value="Erase Board" onClick="window.location.reload()">
+	
+		<footer>Dragging Letters created by Traci Williams</footer>
+	</div><!--end of wrapper div-->
+
+</body>
+</html>
