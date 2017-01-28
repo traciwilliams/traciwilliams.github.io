@@ -2,7 +2,7 @@
 
 ##Installing
 
-N/A
+Use this link: http://traciwilliams.github.io/Simple_Form/index
 
 ##Technologies
 
