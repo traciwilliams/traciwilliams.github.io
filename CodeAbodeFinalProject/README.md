@@ -27,4 +27,8 @@ Traci Williams
 
 ##License
 
+<<<<<<< HEAD
 MIT
+=======
+MIT
+>>>>>>> c74188169881be8c07ae8157299eac0a3d79030a
