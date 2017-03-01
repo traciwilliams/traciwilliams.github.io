@@ -4,18 +4,18 @@
 var data = [];
 
 // Get references to DOM elements
-var dataForm = document.getElementById("data-form");
+var dataForm = document.getElementById("data-form"); //this is where you input you score
 var scoreInput = dataForm.elements["score"];
 var addDataButton = dataForm.elements["add-data"];
 
-dataForm.onsubmit = addData;
+dataForm.onsubmit = addData; //calling addData function
 
 function addData(event) {
-	console.log("hit")
+	//console.log("hit")
 
 	event.preventDefault();
 
-	var score = scoreInput.value;
+	var score = scoreInput.value; //getting the value of the score
 
 
 	if ((score !== "") && (score >= 0) && (score <= 100)) {
