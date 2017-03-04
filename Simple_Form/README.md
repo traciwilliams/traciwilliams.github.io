@@ -1,6 +1,6 @@
 # A simple HTML form
 
-![screenshot](simple_form_screenshot.png)
+![screenshot](styles/simple_form_screenshot.png)
 
 
 ##Installing
