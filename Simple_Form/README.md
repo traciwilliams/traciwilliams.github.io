@@ -1,5 +1,8 @@
 # A simple HTML form
 
+![screenshot](simple_form_screenshot.png)
+
+
 ##Installing
 
 Use this link: http://traciwilliams.github.io/Simple_Form/index
