@@ -1,7 +1,5 @@
 # A simple HTML form
 
-![screenshot](styles/simple_form_screenshot.png)
-
 
 ##Installing
 
@@ -10,6 +8,8 @@ Use this link: http://traciwilliams.github.io/Simple_Form/index
 ##Technologies
 
 HTML CSS 
+
+![screenshot](styles/simple_form_screenshot.png)
 
 ##Versioning
 
